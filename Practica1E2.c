@@ -11,8 +11,8 @@ void reverseString() {
     scanf("%s", cadenaOriginal);
     printf("%s\n", cadenaOriginal);
     int len = strlen(cadenaOriginal);
-    for(int i = len; i >= 0; i--) {
-        printf("%c", cadenaOriginal[i-1]);
+    for(int i = len - 1; i >= 0; i--) {
+        printf("%c", cadenaOriginal[i]);
     }
 }
 
